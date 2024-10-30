@@ -1,0 +1,34 @@
+:root {
+    --bs-secondary: #f8f9fa;
+    --bs-btn-primary: #154c79;
+}
+
+/*Header*/
+.bg-secondary {
+    background-color: var(--bs-secondary) !important;
+}
+
+/*Hero*/
+    /*Buttons*/
+    .btn-primary {
+        background-color: var(--bs-btn-primary);
+        color: #eeeee4;
+        border-color: #76b5c5;
+    }
+
+    .btn-primary:hover{
+        background-color: #76b5c5;
+        border-color: #154c79;
+        color: black;
+    }
+
+    .btn-outline-secondary {
+        background-color: #ee6c30;
+        color: #eeeee4;
+        border-color: #eab676;
+    }
+
+    .btn-outline-secondary:hover {
+        background-color: #21130d;
+        color:#ee6c30;
+    }
